@@ -1,0 +1,60 @@
+  /* ====================================================
+  responsive css
+  =====================================================*/
+@media (max-width:1900px){
+    .section-3 {
+        padding: 50px 0% !important;
+    }
+    .section-3 .col-md-4 div{
+        padding: 20px !important;
+    }
+}
+@media (max-width:800px){
+    .heading h1 {
+        font-size: 52px;
+    }
+    .section-2 i {
+        font-size: 119px;
+    }
+    .section-2 {
+        padding: 50px 6%;
+    }
+    .section-3 {
+        padding: 50px 0% !important;
+    }
+    .section-3 .col-md-4 div{
+        padding: 20px !important;
+    }
+    .section-4 h1 {
+        font-size: 72px;
+    }
+}
+@media (max-width:580px){
+    .heading {
+        padding: 6% 7%;
+    }
+    .heading h1 {
+        font-size: 33px;
+    }
+    .section-3 {
+        padding: 0px 0% !important;
+    }
+    .section-4 h1 {
+        font-size: 52px;
+    }
+    .section-4 {
+        padding: 5% 12%;
+    }
+    .p-5 {
+        padding: 1rem!important;
+    }
+    .sectio-6 {
+        padding: 0% 5%;
+    }
+    .sectio-6 h1 {
+        font-size: 36px;
+    }
+    .contact-section {
+        padding: 0% 8%;
+    }
+}

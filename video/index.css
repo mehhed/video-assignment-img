@@ -1,0 +1,106 @@
+.banner{
+    background-image: url(winter-forest-nature-landscape-snow-covered-arge-fir-trees-nature-winter-background-winter-forest-nature-landscape-snow-123647378.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+}
+.banner::before{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    z-index: -1;
+    background-color:#595b65bd;
+}
+.menu{
+    z-index: 1;
+}
+.heading{
+    padding: 9% 14%;
+    z-index: 1;
+}
+.heading h1{
+    font-size: 80px;
+    margin-bottom: 50px;
+}
+.heading a{
+    text-decoration: none;
+    padding: 10px 25px;
+    border-radius: 20px;
+    color: black;
+    background-color: yellow;
+    border: 2px solid yellow;
+    transition: all .3s;
+}
+.heading a:hover{
+    background: transparent;
+}
+
+.section-2{
+    padding: 50px 28%;
+}
+.section-2 i{
+    font-size: 150px;
+}
+
+
+.section-3{
+    padding: 50px 20%;
+    background-color: #222322;
+}
+.section-3 a{
+    text-decoration: none;
+    color: rgb(210, 241, 13);
+    background-color: #2d2c2c;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: all .3s;
+}
+.section-3 a:hover{
+    background-color: yellow;
+    color: black;
+}
+
+
+
+
+.section-4{
+    padding: 10% 20%;
+    color: white;
+    background-image: url(istockphoto-1173733640-612x612.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+}
+.section-4::before{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    z-index: -1;
+    background-color:#232427ce;
+}
+.section-4 h1{
+    font-size:100px;
+}
+
+
+
+.sectio-6{
+    padding: 5% 20%;
+}
+.sectio-6 h1{
+    font-size: 61px;
+}
+
+.contact-section{
+    padding: 10% 20%;
+}
